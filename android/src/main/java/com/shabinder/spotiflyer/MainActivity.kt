@@ -171,9 +171,7 @@ class MainActivity : ComponentActivity() {
     private fun initialise() {
         val isGithubRelease = checkAppSignature(this)
         /*
-        * Only Send an `Update Notification` on Github Release Builds
-        * and Track Downloads for all other releases like F-Droid,
-        * for `Github Downloads` we will track Downloads using : https://tooomm.github.io/github-release-stats/?username=Shabinder&repository=SpotiFlyer
+        * aAaditya Mandal
         * */
         if (isGithubRelease) {
             checkIfLatestVersion()
