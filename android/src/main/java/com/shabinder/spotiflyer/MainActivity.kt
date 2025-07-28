@@ -327,7 +327,7 @@ class MainActivity : ComponentActivity() {
 
                     override fun copyToClipboard(text: String) {
                         val clipboard = getSystemService(CLIPBOARD_SERVICE) as ClipboardManager
-                        val clip = ClipData.newPlainText("SpotiFlyer Selection", text)
+                        val clip = ClipData.newPlainText("ADTV MUSIC Selection", text)
                         clipboard.setPrimaryClip(clip)
 
                         showPopUpMessage("Text Copied to Clipboard.")
